@@ -1,7 +1,9 @@
 Bacteria [] dots;
 void setup() {
-  size(1000, 1000);
+  size(500, 500);
   background(0);
+  textSize(25);
+  textAlign(CENTER, CENTER);
   dots = new Bacteria[20];
   for(int i = 0; i < dots.length;i++)
   {
@@ -17,8 +19,8 @@ void draw() {
 class Bacteria {
   int x, y, myColorR, myColorG, myColorB;
   Bacteria() {
-    x = 500;
-    y = 500;
+    x = 250;
+    y = 250;
     myColorR = (int)(Math.random()*79)+176;
     myColorG = (int)(Math.random()*79)+176;
     myColorB = (int)(Math.random()*79)+176;
