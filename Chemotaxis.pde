@@ -2,8 +2,6 @@ Bacteria [] dots;
 void setup() {
   size(500, 500);
   background(0);
-  textSize(25);
-  textAlign(CENTER, CENTER);
   dots = new Bacteria[20];
   for(int i = 0; i < dots.length;i++)
   {
